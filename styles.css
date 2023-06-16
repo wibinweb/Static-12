@@ -1,0 +1,206 @@
+body {
+  background: #B2BBB4;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  font-family: "Barlow", sans-serif;
+}
+body a {
+  all: unset;
+  cursor: pointer;
+}
+body h1, body h2, body h3, body h4, body h5, body p {
+  all: unset;
+}
+body h4, body p, body a {
+  font-size: 13px;
+}
+body header, body footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  place-content: center;
+}
+body header section, body header main, body footer section, body footer main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80%;
+  height: 85%;
+  margin: 0 auto;
+}
+body header {
+  background: -webkit-gradient(linear, left top, left bottom, from(#424C4F), to(#2D3336));
+  background: linear-gradient(to bottom, #424C4F, #2D3336);
+  width: 30%;
+  color: white;
+}
+body header section {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  padding-left: 20px;
+  z-index: 1000;
+}
+body header section h1 {
+  font-weight: bold;
+  font-size: 14px;
+}
+body header section h2 {
+  font-family: "EB Garamond", serif;
+  font-size: 140px;
+  letter-spacing: 7.5px;
+}
+body header section .softBlack {
+  color: #717C80;
+}
+body footer {
+  background: url("../IMG/photo3.jpg") center no-repeat;
+  background-size: cover;
+  width: 70%;
+  z-index: 990;
+}
+body footer main {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+}
+body footer main nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body footer main nav > :nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  gap: 35px;
+}
+body footer main nav > :nth-child(2) {
+  width: 100%;
+  max-width: 20px;
+}
+body footer main nav > :nth-child(2) img {
+  width: 100%;
+}
+body footer main article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+  height: 60%;
+  margin-bottom: 20px;
+}
+body footer main article > :nth-child(1) {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+body footer main article > :nth-child(1) > :nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  position: relative;
+}
+body footer main article > :nth-child(1) > :nth-child(1) .plus {
+  cursor: pointer;
+  position: absolute;
+  top: -5px;
+  left: -70px;
+  background: #DD7844;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+}
+body footer main article > :nth-child(1) > :nth-child(1) .plus span {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+body footer main article > :nth-child(1) > :nth-child(1) > :nth-child(2) h4 {
+  font-weight: bold;
+}
+body footer main article > :nth-child(1) > :nth-child(1) > :nth-child(2) p {
+  line-height: 25px;
+}
+body footer main article > :nth-child(1) > :nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 15px;
+  padding-right: 50px;
+  background: #C3C8C4;
+}
+body footer main article > :nth-child(1) > :nth-child(2) > :nth-child(1) {
+  width: 100px;
+  height: 100px;
+  background: url("../IMG/photo2.jpg") center center no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+}
+body footer main article > :nth-child(1) > :nth-child(2) > :nth-child(2) h4 {
+  font-weight: bold;
+}
